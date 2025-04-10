@@ -1,0 +1,46 @@
+# Lessons
+
+## User Specified Lessons
+
+• You have a python venv in ./venv. Use it.
+• Include info useful for debugging in the program output.
+• Read the file before you try to edit it.
+• Due to Cursor's limit, when you use git and gh and need to submit a multiline commit message, first write the message in a file, and then use git commit -F <filename> or similar command to commit. And then remove the file. Include "[Cursor] " in the commit message and PR title.
+
+## Cursor learned
+
+• For search results, ensure proper handling of different character encodings (UTF-8) for international queries
+• Add debug information to stderr while keeping the main output clean in stdout for better pipeline integration
+• When using seaborn styles in matplotlib, use 'seaborn-v0_8' instead of 'seaborn' as the style name due to recent seaborn version changes
+• Use 'gpt-4o' as the model name for OpenAI's GPT-4 with vision capabilities
+
+# Scratchpad
+
+## Task: Create a GitHub Pages Portfolio for Lee Dong Hao
+
+### Progress:
+[X] Create basic file structure
+[X] Develop README.md with project information
+[X] Create HTML structure with responsive layout
+[X] Design CSS styling with modern look and feel
+[X] Add JavaScript for interactive elements
+[X] Ensure mobile responsiveness
+[X] Add additional technologies (Redis, Dozzle, Sentry, MinIO)
+
+### Remaining Tasks:
+[ ] Add actual profile picture (currently using placeholder)
+[ ] Add real project images
+[ ] Update contact information with actual details
+[ ] Test on GitHub Pages
+
+### Portfolio Features Implemented:
+- Professional hero section with introduction
+- About section highlighting expertise
+- Comprehensive skills section showcasing DevOps and development expertise
+  - Added Redis, Dozzle, Sentry, and MinIO to skills list
+- Experience timeline with professional history
+- Project showcase with key technologies
+  - Added Containerized Data Platform project featuring the new technologies
+- Contact section with social links
+- Responsive design for all device sizes
+- Interactive navigation with smooth scrolling 
